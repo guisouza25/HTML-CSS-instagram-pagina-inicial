@@ -1,10 +1,7 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+## Página inicial do Instagram
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+O objetivo deste projeto foi recriar a página inicial o Instagram, utilizando HTML E CSS Flexbox.
 
-### Os requisitos são:
+![Instagram - Google Chrome 26_11_2020 23_02_26](https://user-images.githubusercontent.com/56408216/100402882-2a40e880-303c-11eb-8a7d-3f2010bc7717.png)
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## 🚀 Let's code! 🚀
+![Instagram - Google Chrome 26_11_2020 23_03_09](https://user-images.githubusercontent.com/56408216/100402897-30cf6000-303c-11eb-8ac4-3fe80836e5b4.png)
