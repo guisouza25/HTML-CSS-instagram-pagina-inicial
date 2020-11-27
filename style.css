@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center; /* para centralizar o conteudo */
+}
+
+.instagram-wrapper {
+	display: flex; /*O elemento vira um flex container. Todos os itens dentro vao ficar
+					 em linha ocupando o maior espaco dentro daquela linha*/
+	align-items: center; /*Alinhamento no eixo vertical*/
+	justify-content: start; /*Alinhmento no eixo horizontal. start- da esquerda para direita*/
+	max-width: 935px; /*60% do body*/
+	height: 100vh;
+}
+
+/* Container da esquerda - imagem */
+
+.instagram-phone {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	width: 50%;
+}
+
+.instagram-phone img {
+	height: 50rem;
+}
+
+/* Container da direita */
+
+.instagram-continue {
+	display: flex;
+	align-items: center; /* passou a ser horizontal por causa do flex-direction: column */
+	justify-content: space-around; /* passou a ser vertical por causa do flex-direction: column */
+	flex-direction: column; /* column - inverte o eixo */
+	width: 50%;
+	min-height: 34rem;
+}
+
+.group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+
+.group:nth-child(1) { /* 1º .group seleciona os filhos do elemento */
+	min-height: 19rem;
+}
+
+.instagram-logo {
+	height: 3rem;
+}
+
+.profile-photo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-photo img {
+	height: 100px;
+}
+
+.instagram-login {
+	background-color: #0095f6;
+	color: #ffffff;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.instagram-logout {
+	color: #0095f6;
+	margin-top: 1rem;
+}
+
+.not-account {
+	color: rgb(160, 160, 160);
+}
+
+.link-blue {
+	color: #0095f6;
+}
+
+.get-the-app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 1rem;
+}
+
+.app-download {
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.app-download:nth-child(1) {
+	background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+	background-image: url('./img/googleplay-button.png');
+}
